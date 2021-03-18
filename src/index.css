@@ -1,1 +1,78 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
 
+header {
+  background-color: #1a1a1a;
+}
+
+.header-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo-header {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* Home Screen  */
+.top-div-homescreen {
+  background-color: #1a1a1a;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ffff;
+}
+
+.main-book-img {
+  margin-left: 50px;
+  width: 500px;
+  height: 400px;
+}
+
+hr {
+  color: #ffff;
+  background-color: #ffff;
+}
+
+/* About the book  */
+
+.about-book-div {
+  margin-top: 100px;
+  margin-bottom: 170px;
+}
+
+.about-book-p {
+  color: gray;
+  font-size: 15px;
+}
+
+.quote-book {
+  font-size: 20px;
+  text-align: right;
+  color: #ef8172;
+  margin-right: 10px;
+}
+
+.vl {
+  border-right: 6px solid black;
+  height: 100px;
+}
+
+/* Reviews Section  */
+.about-author-section {
+  padding-bottom: 150px;
+}
+
+.reviews-section {
+  margin-bottom: 150px;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  text-align: center;
+  color: white;
+  background-color: #ef8172;
+}
+
+.roxanne-img {
+  height: 600px;
+}
