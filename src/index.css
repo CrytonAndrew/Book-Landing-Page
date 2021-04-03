@@ -20,14 +20,14 @@ header {
 .top-div-homescreen {
   background-color: #1a1a1a;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
   color: #ffff;
 }
 
 .main-book-img {
   margin-left: 50px;
-  width: 500px;
-  height: 400px;
+  width: 600px;
+  height: 500px;
 }
 
 hr {
@@ -75,4 +75,21 @@ hr {
 
 .roxanne-img {
   height: 600px;
+}
+
+/* Contact page section  */
+
+.info-col {
+  background-color: #ef8172;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  font-size: larger;
+}
+
+.contact-section {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: #ef8172;
+  color: #ffff;
 }
