@@ -24,6 +24,48 @@ const HomeScreen = () => {
                 </Container>
             </div>
 
+            {/* About author  */}
+
+            <section className="about-author-section">
+                <Container>
+                    <Row>
+                        <Col md={5}>
+                            <Image src="images/roxanne.JPG" className="roxanne-img"/>
+                        </Col>
+                        <Col>
+                            <h2>About the Author</h2>
+                            <hr style={{backgroundColor: "#ef8172", height: "5px", border: "0px"}}></hr>
+                            <br></br>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                             adipiscing elit. Praesent sollicitudin magna vitae ullamcorper venenatis. 
+                             Duis hendrerit, risus vitae tempor volutpat, 
+                            leo justo vulputate ex, vel semper diam nulla ut massa. 
+                            Integer fringilla ipsum sit amet gravida euismod
+                            </p>
+                            <br></br>
+                            <br></br>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                             adipiscing elit. Praesent sollicitudin magna vitae ullamcorper venenatis. 
+                             Duis hendrerit, risus vitae tempor volutpat, 
+                            leo justo vulputate ex, vel semper diam nulla ut massa. 
+                            Integer fringilla ipsum sit amet gravida euismod
+                            </p>
+                            <br></br>
+                            <br></br>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                             adipiscing elit. Praesent sollicitudin magna vitae ullamcorper venenatis. 
+                             Duis hendrerit, risus vitae tempor volutpat, 
+                            leo justo vulputate ex, vel semper diam nulla ut massa. 
+                            Integer fringilla ipsum sit amet gravida euismod
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+
             {/* About the book section  */}
 
             <div className="about-book-div">
@@ -108,45 +150,7 @@ const HomeScreen = () => {
                 </Container>
             </section>
 
-            <section className="about-author-section">
-                <Container>
-                    <Row>
-                        <Col md={5}>
-                            <Image src="images/roxanne.JPG" className="roxanne-img"/>
-                        </Col>
-                        <Col>
-                            <h2>About the Author</h2>
-                            <hr style={{backgroundColor: "#ef8172", height: "5px", border: "0px"}}></hr>
-                            <br></br>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur
-                             adipiscing elit. Praesent sollicitudin magna vitae ullamcorper venenatis. 
-                             Duis hendrerit, risus vitae tempor volutpat, 
-                            leo justo vulputate ex, vel semper diam nulla ut massa. 
-                            Integer fringilla ipsum sit amet gravida euismod
-                            </p>
-                            <br></br>
-                            <br></br>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur
-                             adipiscing elit. Praesent sollicitudin magna vitae ullamcorper venenatis. 
-                             Duis hendrerit, risus vitae tempor volutpat, 
-                            leo justo vulputate ex, vel semper diam nulla ut massa. 
-                            Integer fringilla ipsum sit amet gravida euismod
-                            </p>
-                            <br></br>
-                            <br></br>
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur
-                             adipiscing elit. Praesent sollicitudin magna vitae ullamcorper venenatis. 
-                             Duis hendrerit, risus vitae tempor volutpat, 
-                            leo justo vulputate ex, vel semper diam nulla ut massa. 
-                            Integer fringilla ipsum sit amet gravida euismod
-                            </p>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
+            
 
             {/* Contact Section  */}
 
